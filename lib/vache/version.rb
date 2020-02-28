@@ -1,4 +1,4 @@
-class Vache
+module Vache
   VERSION = File.readlines(File.expand_path('../../VERSION', __dir__)).first.chomp.freeze
 
   def self.version

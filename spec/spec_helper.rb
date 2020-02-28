@@ -1,7 +1,7 @@
 require 'bundler/setup'
-require 'vache'
-
 require 'timecop'
+
+require 'vache'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
